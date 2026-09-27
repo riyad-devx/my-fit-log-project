@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FitLog - Workout Library
 
-## Getting Started
+FitLog is a modern, responsive workout library web application built with Next.js and React. It allows users to explore different exercises, view detailed workout information, create a personal workout plan, and save favorite workouts for later.
 
-First, run the development server:
+## 🚀 Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- LocalStorage
+- JavaScript / JSX
+- Git & GitHub
+
+## ✨ Key Features
+
+### 1. 🏋️ Workout Library
+
+Browse a collection of different exercises with workout cards showing important information such as:
+
+- Exercise name
+- Muscle groups
+- Equipment
+- Difficulty level
+- Duration
+- Calories burned
+
+### 2. 📋 Workout Details
+
+Users can click on any workout card to view detailed information, including:
+
+- Exercise instructions
+- Target muscles
+- Equipment
+- Duration
+- Sets
+- Reps
+- Calories burned
+
+### 3. 📅 Today's Workout Plan
+
+Users can add exercises to their personal workout plan and manage their planned workouts from the **My Plan** page.
+
+### 4. 🔖 Save for Later
+
+Users can bookmark their favorite workouts and access them later from the **Save** page.
+
+### 5. 📊 Workout Statistics
+
+The **My Plan** page provides useful workout statistics, such as:
+
+- Total exercises
+- Total workout time
+- Estimated calories burned
+
+## 📱 Responsive Design
+
+FitLog is designed to work smoothly across different screen sizes:
+
+- 📱 Mobile
+- 💻 Desktop
+- 🖥️ Large Screens
+
+## 🎯 Project Goal
+
+The main goal of FitLog is to provide a simple and user-friendly platform for discovering workouts and organizing a personal workout routine.
+
+---
+
+## 🛠️ Getting Started
+
+This project was bootstrapped with [Create Next App](https://nextjs.org).
+
+### Install Dependencies
+
+First, install the project dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
